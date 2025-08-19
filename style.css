@@ -1,0 +1,250 @@
+* {
+    margin: 10;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: #2c2c2c;
+}
+
+.roboto-condensed- {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.chau-philomene-one-regular {
+    font-family: "Chau Philomene One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+img {
+    width: 80%;
+    padding-left: 50px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Chau Philomene One";
+    font-weight: 300;
+    color: #e7ebd7;
+    padding-top: 8px;
+}
+
+p {
+    display: flex;
+    text-align: justify;
+    font-size: 18px;
+    font-family: "Roboto Condensed";
+    color: #e7ebd7;
+}
+
+a{
+    color: #e7ebd7;
+    position: relative;
+    text-decoration: none;
+}
+
+a::after{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #b6b910;
+    transition: transform 0.25s ease-out;
+    transform-origin: bottom center;
+}
+
+a:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom center;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    left: 0.5vw;
+    right: 0.5vw;
+    background-color: #2c2c2c;
+    box-shadow: 5px 5px 5px #1f1f1f;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+header nav,
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+header li {
+    list-style-type: none;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+#titulo {
+    padding-top: 50px;
+    background: url(imagens/imgfundoinicio.png) no-repeat center center fixed;
+    background-size: center;
+    height: 60vh;
+}
+
+#titulo h1 {
+    display: flex;
+    font-size: 70px;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#titulo h2 {
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+}
+
+
+
+#conteudo {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin: 20px 10px;
+    padding: 20px 0 30px;
+}
+
+#conteudo h2 {
+    color: #84b654;
+}
+
+
+
+.colunaconteudo {
+    padding-left: 190px;
+}
+
+#temahabilidades ul {
+    display: block;
+    color: #e7ebd7;
+}
+
+#temahabilidades li {
+    margin-bottom: 8px;
+    margin-left: 20px;
+}
+
+
+
+.colunapropaganda {
+    padding-right: 140px;
+}
+
+.colunapropaganda button {
+    background-color: #84b654;
+    font-size: 14px;
+    padding: 10px;
+    color: #e7ebd7;
+    border-radius: 8px;
+}
+
+.colunapropaganda table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: #e7ebd7;
+    font-size: 16px;
+}
+
+.colunapropaganda td {
+    border: solid 1px #4d4d4d;
+    padding: 18px;
+}
+
+
+
+footer {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 120px;
+    background: url(imagens/imgfundofotter.png) no-repeat center;
+    background-size: cover;
+    padding: 15px 5px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+#coluna1 {
+    padding-left: 50px;
+}
+
+#coluna1 svg {
+    width: 30px;
+    height: 30px;
+    padding-right: 15px;
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+#coluna1 svg:hover {
+    color: #b6b910;
+}
+
+#coluna1 #escolhido {
+    padding-bottom: 50px;
+}
+
+
+
+.coluna2 p {
+    text-decoration: underline;
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+.coluna2 p:hover {
+    color: #b6b910;
+}
+
+
+
+.coluna3 p {
+    text-decoration: underline;
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+.coluna3 p:hover {
+    color: #b6b910;
+}
+
+
+
+.coluna4 p {
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+.coluna4 p:hover {
+    color: #b6b910;
+}
